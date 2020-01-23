@@ -1,0 +1,80 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #b06a9e;
+    overflow: hidden;
+    border-radius: 200px;
+}
+html,body{
+    background-image: url(https://css-tricks.com/wp-content/uploads/2017/09/radial-gradient.png);
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+}
+li{
+    display: inline;
+    float: left;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:#750d5a;
+}
+body{
+    margin: 25px 1%;
+}
+#title{
+    font-size: 180px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    display: block;
+    text-align: center;
+    float: none;
+    opacity: 0.75;
+}
+.explanation{
+    text-align: center;
+}
+.grid-container{
+    position: absolute;
+    z-index: 1;
+}
+.grid-row{
+    margin-bottom: 20px;
+}
+.grid-row:last-child{
+    margin-bottom: 0;
+}
+.grid-cell{
+    width: 12%;
+    height: 12%;
+    margin-right: 12px;
+    float: left;
+    border-radius: 10px;
+    background: #409c95;
+}
+.grid-cell:last-child{
+    margin-right: 0;
+}
+.score{
+    /* padding: 0px 40%; */
+    text-align: center;
+    display: inline;
+    margin-top: 0px;
+    font-size: 32px;
+}
+.grid{
+    text-align: center;
+}
